@@ -90,18 +90,18 @@ export default function footer() {
                 LANGUAGE
               </h2>
               <div className="mt-8">
-              <Link href={"/"}>
-                <legacyBehavior className="flex items-center space-x-2 mb-2">
+               <Link href="/" legacyBehavior>
+                <a className="flex items-center space-x-2 mb-2">
                   <img
                     width="35"
                     height="50"
                     src="https://img.icons8.com/ios/50/globe--v1.png"
-                    alt="globe--v1"
+                    alt="globe"
                   />
                   <h2 className="text-gray-900 font-semibold text-sm">
                     United States
                   </h2>
-                </legacyBehavior>
+                </a>
               </Link>
               <div className="w-80 mt-5">
                 <select className="block w-40 bg-gray-100 text-black-700 border border-black-300 rounded px-2 py-2 text-left focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
