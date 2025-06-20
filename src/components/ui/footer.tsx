@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -58,7 +59,7 @@ export default function Footer() {
             <div className="mt-8">
               <Link href="/">
                 <div className="flex items-center space-x-2 mb-2 cursor-pointer">
-                  <img
+                  <Image
                     width="35"
                     height="50"
                     src="https://img.icons8.com/ios/50/globe--v1.png"
