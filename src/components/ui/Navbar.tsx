@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Navbar() {
   return (
     <div className="fixed top-0 left-0 w-full bg-purple-900 p-3 flex items-center z-50">
       {/* Logo */}
      <h1 className="font-bold text-white ml-40">
-        <img 
+        <Image
           src="https://www.fedex.com/content/dam/fedex-com/logos/logo.png" 
           alt="FedEx Logo" 
           className="w-24 h-auto" // Change size here (e.g. w-24, w-16)
